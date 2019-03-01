@@ -1,0 +1,3 @@
+#!/usr/bin/env bash
+
+exec scala -cp target/scala-2.12/LicenseKeyGenerator-assembly-0.1.jar KeyValidator "$1"
